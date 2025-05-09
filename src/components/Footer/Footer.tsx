@@ -34,7 +34,7 @@ const Footer = () => {
                 <ul>
                     <li><Link to="/imprint">Impressum</Link></li>
                     <li><Link to="/privacy">Datenschutzerklärung</Link></li>
-                    <FooterButton href="/contact" caption="Kontakt"/> {/* Contact button */}
+                    <li><Link to="/contact">Kontakt</Link></li>
                 </ul>
             </div>
         </div>

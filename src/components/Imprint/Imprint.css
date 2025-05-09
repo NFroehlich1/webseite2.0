@@ -1,0 +1,75 @@
+.Imprint {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+  min-height: calc(100vh - 300px);
+}
+
+.Imprint .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.Imprint h1 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+  text-align: center;
+}
+
+.imprint-content {
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.imprint-content h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.imprint-content h2:first-child {
+  margin-top: 0;
+}
+
+.imprint-content p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.imprint-content .source {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #777;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+}
+
+.imprint-content .source a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.imprint-content .source a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .Imprint {
+    padding: 40px 0;
+  }
+  
+  .imprint-content {
+    padding: 20px;
+  }
+  
+  .Imprint h1 {
+    font-size: 2rem;
+  }
+}
