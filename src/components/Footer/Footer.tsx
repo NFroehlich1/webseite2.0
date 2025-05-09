@@ -23,7 +23,6 @@ const Footer = () => {
                     <li><Link to="/students">Studierende</Link></li>
                     <li><Link to="/companies">Unternehmen</Link></li>
                     <li><Link to="/about">Über uns</Link></li>
-                    <li><Link to="/news">News</Link></li>
                 </ul>
                 <ul>
                     <li><a href="https://www.facebook.com/linkit.tech/" target="_blank" rel="noopener noreferrer">Facebook</a></li>
