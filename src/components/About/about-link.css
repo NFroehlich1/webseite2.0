@@ -1,0 +1,47 @@
+.team-link-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  padding: 15px;
+}
+
+.team-link-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--linkit-blau);
+  color: white;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(28, 108, 249, 0.25);
+}
+
+.team-link-button:hover {
+  background-color: #1457c7;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(28, 108, 249, 0.35);
+  color: white;
+  text-decoration: none;
+}
+
+.arrow-icon {
+  margin-left: 10px;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+.team-link-button:hover .arrow-icon {
+  transform: translateX(5px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .team-link-button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}

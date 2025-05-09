@@ -52,7 +52,8 @@ const Header = () => {
                             id="basic-nav-dropdown" 
                             className={`Header-Link ${isActive('/about') || isActive('/contact') ? 'Header-Link-Active' : ''}`} 
                         >
-                            <NavDropdown.Item as={Link} to="/about" className={`Header-Link-Sub ${isActive('/about') ? 'Header-Link-Sub-Active' : ''}`} >{t('about')}</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/about" className={`Header-Link-Sub ${isActive('/about') && !isActive('/about/team') ? 'Header-Link-Sub-Active' : ''}`} >{t('about')}</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/about/team" className={`Header-Link-Sub ${isActive('/about/team') ? 'Header-Link-Sub-Active' : ''}`} >Unser Team</NavDropdown.Item>
                             <NavDropdown.Item as={Link} to="/contact" className={`Header-Link-Sub ${isActive('/contact') ? 'Header-Link-Sub-Active' : ''}`} >{t('kontakt')}</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>

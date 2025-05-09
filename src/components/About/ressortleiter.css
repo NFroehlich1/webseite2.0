@@ -1,0 +1,86 @@
+/* Ressortleiter Sektion Styles */
+.ressortleiter-section {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  left: 0;
+  position: absolute;
+  top: 3200px;
+  width: 1440px;
+  padding: 0 100px;
+}
+
+.ressortleiter-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 100%;
+}
+
+.ressortleiter-card {
+  background-color: rgba(30, 30, 30, 0.95);
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(82, 180, 220, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ressortleiter-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  border-color: rgba(82, 180, 220, 0.5);
+}
+
+.ressortleiter-title {
+  color: var(--linkit-hellblau);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.ressortleiter-description {
+  color: #ffffff;
+  opacity: 0.8;
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.ressortleiter-members {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ressortleiter-member {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 5px 10px;
+  background-color: rgba(82, 180, 220, 0.1);
+  border-radius: 4px;
+  border-left: 3px solid var(--linkit-hellblau);
+}
+
+/* Media Queries für Responsive Design */
+@media (max-width: 1200px) {
+  .ressortleiter-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .ressortleiter-section {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ressortleiter-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .ressortleiter-section {
+    padding: 0 30px;
+  }
+}

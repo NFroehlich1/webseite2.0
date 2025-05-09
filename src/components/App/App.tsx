@@ -9,6 +9,7 @@ import About from '../About';
 import Contact from '../Contact';
 import Imprint from '../Imprint/Imprint';
 import Privacy from '../Privacy/Privacy';
+import UnserTeam from '../About/UnserTeam';
 
 const router = createBrowserRouter(
     createRoutesFromElements(
@@ -17,6 +18,7 @@ const router = createBrowserRouter(
             <Route path="students" element={<Students/>}/>
             <Route path="companies" element={<Companies/>}/>
             <Route path="about" element={<About/>}/>
+            <Route path="about/team" element={<UnserTeam/>}/>
             <Route path="contact" element={<Contact/>}/>
             <Route path="imprint" element={<Imprint/>}/>
             <Route path="privacy" element={<Privacy/>}/>

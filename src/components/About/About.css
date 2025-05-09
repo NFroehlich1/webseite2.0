@@ -1,0 +1,300 @@
+/* Allgemeine Stile für die Über uns-Seite */
+.about-page {
+  background-color: #111111;
+  color: #ffffff;
+  font-family: "Manrope", Helvetica;
+}
+
+/* Header-Sektion mit Bild und Überschrift */
+.header-section {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 60px;
+}
+
+.header-image {
+  background-image: url('../../resources/Jivka_Ovtcharova.jpg'); /* Vorübergehend, bis wir ein Teamfoto haben */
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(17, 17, 17, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.overlay h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.overlay p {
+  font-size: 20px;
+  max-width: 800px;
+  opacity: 0.9;
+}
+
+/* Gemeinsame Stile für alle Sektionen */
+section {
+  padding: 60px 0;
+}
+
+.section-title {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.section-title:after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background-color: #52b4dc; /* linkit Blau */
+}
+
+/* Rollen-Sektion */
+.roles-section {
+  background-color: #151515;
+  padding: 80px 0;
+}
+
+.role-card {
+  background-color: #1e1e28;
+  border: none;
+  border-radius: 8px;
+  height: 100%;
+  transition: transform 0.3s ease;
+  color: #ffffff;
+}
+
+.role-card:hover {
+  transform: translateY(-5px);
+}
+
+.role-card .card-title {
+  color: #52b4dc;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.role-card .card-text {
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.members {
+  margin-top: 20px;
+}
+
+.member-name {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+/* Ressorts-Sektion */
+.departments-section {
+  background-color: #111111;
+  padding: 80px 0;
+}
+
+.department-card {
+  background-color: #1e1e28;
+  border: none;
+  border-radius: 8px;
+  height: 100%;
+  transition: transform 0.3s ease;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.department-card:hover {
+  transform: translateY(-5px);
+}
+
+.dept-icon {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.department-card .card-title {
+  color: #52b4dc;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.department-card .card-text {
+  opacity: 0.8;
+}
+
+/* Schirmherren-Sektion */
+.patrons-section {
+  background-color: #151515;
+  padding: 80px 0;
+}
+
+.patron-item {
+  background-color: #1e1e28;
+  border-radius: 8px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.patron-image-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.patron-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 3px solid #52b4dc;
+}
+
+.patron-image-col h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.patron-quote {
+  font-style: italic;
+  line-height: 1.6;
+  opacity: 0.9;
+  position: relative;
+  padding: 0 20px;
+}
+
+.patron-quote:before {
+  content: '"';
+  font-size: 60px;
+  color: #52b4dc;
+  opacity: 0.3;
+  position: absolute;
+  top: -20px;
+  left: -10px;
+}
+
+/* Beirat-Sektion */
+.board-members {
+  margin-top: 40px;
+}
+
+.board-member-card {
+  background-color: #1e1e28;
+  border-radius: 8px;
+  padding: 25px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.board-member-card:hover {
+  transform: translateY(-5px);
+}
+
+.board-member-img-placeholder {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  border: 3px solid #52b4dc;
+  color: #fff;
+  font-size: 18px;
+}
+
+.board-member-card h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #52b4dc;
+}
+
+.board-member-position {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-bottom: 15px;
+}
+
+.board-member-description {
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 768px) {
+  .header-section {
+    height: 400px;
+  }
+  
+  .overlay h1 {
+    font-size: 36px;
+  }
+  
+  .overlay p {
+    font-size: 16px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+  }
+  
+  .patron-item {
+    padding: 20px;
+  }
+  
+  .patron-img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-section {
+    height: 300px;
+  }
+  
+  .overlay h1 {
+    font-size: 28px;
+  }
+  
+  .patron-image-col {
+    margin-bottom: 20px;
+  }
+}

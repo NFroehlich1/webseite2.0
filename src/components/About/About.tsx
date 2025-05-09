@@ -1,11 +1,19 @@
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import Ovtcharova from "../../resources/Jivka_Ovtcharova.jpg";
 import Feindt from "../../resources/Michael_Feindt.jpg";
 import GDS from "../../resources/GDS.jpg";
+import "./about-link.css";
 
 const About = () => {
     return (
         <main>
+            <Container fluid className="team-link-container">
+                <Link to="/about/team" className="team-link-button">
+                    Unser Team kennenlernen
+                    <span className="arrow-icon">→</span>
+                </Link>
+            </Container>
             <Container fluid className="start">
                 <h2>Unsere Schirmherren</h2>
                 <Container fluid className="patron">
