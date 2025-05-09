@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="Footer-Logo"></div>
 
                 <p>linkit e.V. ist seit 2016 die erste Industrie 4.0 und Data Science Hochschulgruppe in Deutschland. </p>
-                <p>Aktueller Vorstand sind Nico Fröhlich und Patrick Schneider</p>
+                <p>Aktueller Vorstand sind Tom Körner und Verena Hallitschke</p>
 
                 <div className="Copyright">© 2025 linkit e.V. - All rights reserved</div>
 
