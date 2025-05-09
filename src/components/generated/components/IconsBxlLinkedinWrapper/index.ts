@@ -1,0 +1,1 @@
+export { IconsBxlLinkedinWrapper } from "./IconsBxlLinkedinWrapper";

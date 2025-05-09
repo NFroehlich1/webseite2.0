@@ -1,0 +1,1 @@
+export { IconsBxInfinite } from "./IconsBxInfinite";

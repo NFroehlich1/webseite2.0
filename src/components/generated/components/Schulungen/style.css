@@ -1,0 +1,234 @@
+.schulungen {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.schulungen .content {
+  height: auto;
+  position: relative;
+  width: 100%;
+  max-width: 615px;
+  margin-bottom: 20px;
+}
+
+.schulungen .description {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 355px;
+  position: relative;
+}
+
+.schulungen .title {
+  color: #ffffff;
+  font-family: var(--linkit-subheader-font-family);
+  font-size: var(--linkit-subheader-font-size);
+  font-style: var(--linkit-subheader-font-style);
+  font-weight: var(--linkit-subheader-font-weight);
+  letter-spacing: var(--linkit-subheader-letter-spacing);
+  line-height: var(--linkit-subheader-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: 615px;
+}
+
+.schulungen .text-wrapper {
+  color: #ffffff;
+  font-family: var(--linkit-small-font-family);
+  font-size: var(--linkit-small-font-size);
+  font-style: var(--linkit-small-font-style);
+  font-weight: var(--linkit-small-font-weight);
+  letter-spacing: var(--linkit-small-letter-spacing);
+  line-height: var(--linkit-small-line-height);
+  opacity: 0.7;
+  position: relative;
+  width: 615px;
+}
+
+.schulungen .toggles {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 24px 15px;
+  position: relative;
+  width: 287.47px;
+}
+
+.schulungen .title-2 {
+  color: #ffffff;
+  font-family: var(--linkit-bold-white-font-family);
+  font-size: var(--linkit-bold-white-font-size);
+  font-style: var(--linkit-bold-white-font-style);
+  font-weight: var(--linkit-bold-white-font-weight);
+  letter-spacing: var(--linkit-bold-white-letter-spacing);
+  line-height: var(--linkit-bold-white-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: 255px;
+}
+
+.schulungen .vector {
+  height: 28px;
+  position: relative;
+  width: 17.47px;
+}
+
+.schulungen .title-3 {
+  color: #ffffff;
+  font-family: var(--linkit-bold-white-font-family);
+  font-size: var(--linkit-bold-white-font-size);
+  font-style: var(--linkit-bold-white-font-style);
+  font-weight: var(--linkit-bold-white-font-weight);
+  letter-spacing: var(--linkit-bold-white-letter-spacing);
+  line-height: var(--linkit-bold-white-line-height);
+  position: relative;
+  width: 255px;
+}
+
+.schulungen .btn-shadow {
+  border: 2px solid;
+  border-color: var(--linkit-hellblau);
+  border-radius: 6px;
+  height: 50px;
+  margin-bottom: -1px;
+  position: relative;
+  width: 155px;
+}
+
+.schulungen .btn-text-2 {
+  color: #ffffff;
+  font-family: var(--linkit-small-font-family);
+  font-size: var(--linkit-small-font-size);
+  font-style: var(--linkit-small-font-style);
+  font-weight: var(--linkit-small-font-weight);
+  left: 48px;
+  letter-spacing: var(--linkit-small-letter-spacing);
+  line-height: var(--linkit-small-line-height);
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  white-space: nowrap;
+}
+
+.schulungen .benjaminbarth-SICK {
+  height: auto;
+  position: relative;
+  width: 100%;
+  max-width: 435px;
+  margin: 0 auto;
+  display: block;
+}
+
+.schulungen .inhalte-der-schulung {
+  height: 266px;
+  left: 630px;
+  position: absolute;
+  top: 16px;
+  width: 435px;
+}
+
+.schulungen .title-4 {
+  color: #ffffff;
+  font-family: var(--linkit-bold-white-font-family);
+  font-size: var(--linkit-bold-white-font-size);
+  font-style: var(--linkit-bold-white-font-style);
+  font-weight: var(--linkit-bold-white-font-weight);
+  left: 0;
+  letter-spacing: var(--linkit-bold-white-letter-spacing);
+  line-height: var(--linkit-bold-white-line-height);
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  width: 435px;
+}
+
+.schulungen .list {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  left: 9px;
+  position: absolute;
+  top: 64px;
+  width: 416px;
+}
+
+.schulungen .line {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 416px;
+}
+
+.schulungen .instance-node {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.schulungen .p {
+  color: #ffffff;
+  font-family: var(--linkit-small-font-family);
+  font-size: var(--linkit-small-font-size);
+  font-style: var(--linkit-small-font-style);
+  font-weight: var(--linkit-small-font-weight);
+  letter-spacing: var(--linkit-small-letter-spacing);
+  line-height: var(--linkit-small-line-height);
+  margin-top: -1px;
+  opacity: 0.7;
+  position: relative;
+  width: 388px;
+}
+
+.schulungen .list-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 8px;
+  left: 639px;
+  position: absolute;
+  top: 93px;
+}
+
+.schulungen .line-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+}
+
+.schulungen .title-5 {
+  color: #ffffff;
+  font-family: var(--linkit-small-font-family);
+  font-size: var(--linkit-small-font-size);
+  font-style: var(--linkit-small-font-style);
+  font-weight: var(--linkit-small-font-weight);
+  letter-spacing: var(--linkit-small-letter-spacing);
+  line-height: var(--linkit-small-line-height);
+  margin-top: -1px;
+  opacity: 0.7;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.schulungen .title-6 {
+  color: #ffffff;
+  font-family: var(--linkit-bold-white-font-family);
+  font-size: var(--linkit-bold-white-font-size);
+  font-style: var(--linkit-bold-white-font-style);
+  font-weight: var(--linkit-bold-white-font-weight);
+  left: 630px;
+  letter-spacing: var(--linkit-bold-white-letter-spacing);
+  line-height: var(--linkit-bold-white-line-height);
+  position: absolute;
+  text-align: center;
+  top: 15px;
+  width: 435px;
+}

@@ -1,0 +1,176 @@
+.my-component{
+  align-items: flex-start;
+}
+
+.faq-toggler {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding: 0px 40px;
+  width: 1052px;
+  height: 90px;
+  background: #52B3DC;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-bottom: 40px;
+}
+
+.faq-question {
+  
+  display: flex;
+  margin-top: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  width: 922px;
+  height: 34px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.faq-answer {
+  display: flex;
+  margin-top: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  width: 922px;
+  height: 34px;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  color: #FFFFFF;
+  background: #52B3DC;
+
+
+ padding: 0px 20px;
+ 
+  width: 110%;
+  height: 90px;
+  background: #52B3DC;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+
+  flex: none;
+  order: 0;
+  
+  margin-bottom: 80px;
+  align-items: center;
+}
+
+  <Carousel
+              containerProps={{
+                style: {
+                  width: "100%",
+                  height: 500,
+                  justifyContent: "space-between",
+                  userSelect: "none",
+                  background: `url(${CarouselBackground})`,
+                  marginBottom: 15,
+                }
+              }}
+              preventScrollOnSwipe
+              swipeTreshold={60}
+              activeSlideIndex={activeSlide}
+              activeSlideProps={{
+                style: {
+                  background: "blue",
+                  border: 0,
+                  marginTop: 50,
+                  marginLeft: 30,
+                  marginRight: 30,
+                }
+              }}
+              onRequestChange={setActiveSlide}
+              forwardBtnProps={{
+                children: ">",
+                style: {
+                  margin: 50,
+                  width: 60,
+                  height: 60,
+                  minWidth: 60,
+                  alignSelf: "center",
+                  borderRadius: "50%",
+                }
+              }}
+              backwardBtnProps={{
+                children: "<",
+                style: {
+                  margin: 50,
+                  width: 60,
+                  height: 60,
+                  minWidth: 60,
+                  alignSelf: "center",
+                  borderRadius: "50%"
+                }
+              }}
+              dotsNav={{
+                show: true,
+                itemBtnProps: {
+                  style: {
+                    height: 16,
+                    width: 16,
+                    borderRadius: "50%",
+                    border: 0,
+                    marginLeft: 20
+                  }
+                },
+                activeItemBtnProps: {
+                  style: {
+                    height: 16,
+                    width: 16,
+                    borderRadius: "50%",
+                    border: 0,
+                    background: " #52B4DC",
+                    marginLeft: 20
+                  }
+                }
+              }}
+              itemsToShow={3}
+              speed={400}
+            >
+              {Array.from({ length: 19 }).map((item, index) => (
+                <div
+                  style={{
+                    background: "yellow",
+                    width: 300,
+                    height: 300,
+                    border: 0,
+                    textAlign: "center",
+                    lineHeight: "240px",
+                    boxSizing: "border-box",
+                    marginLeft: 30,
+                    marginRight: 30,
+                    marginBottom: 30,
+                    marginTop: 80,
+                  }}
+                  key={index}
+                >
+                  {index}
+                </div>
+              ))}
+            </Carousel>
+
+
+            #EventsCarousel
+{
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #000;
+  margin-left: auto;
+  margin-right: auto;
+}

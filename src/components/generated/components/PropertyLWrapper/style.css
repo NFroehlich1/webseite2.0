@@ -1,0 +1,65 @@
+.property-l-wrapper {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+}
+
+.property-l-wrapper .div {
+  font-family: "Manrope", Helvetica;
+  font-weight: 600;
+  letter-spacing: 0;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.property-l-wrapper.property-2-0-solid {
+  background-color: var(--brand-1);
+}
+
+.property-l-wrapper.property-1-0-l {
+  border-radius: 8px;
+  padding: 13px 32px;
+}
+
+.property-l-wrapper.property-2-0-outline {
+  border: 1px solid;
+  border-color: #6366f159;
+}
+
+.property-l-wrapper.property-1-0-m {
+  border-radius: 6px;
+  padding: 11px 28px;
+}
+
+.property-l-wrapper.property-1-0-s {
+  border-radius: 4px;
+  padding: 9px 20px;
+}
+
+.property-l-wrapper.property-2-0-solid .div {
+  color: var(--white);
+}
+
+.property-l-wrapper.property-1-0-l .div {
+  font-size: 16px;
+  line-height: 25.6px;
+}
+
+.property-l-wrapper.property-2-0-outline .div {
+  color: var(--brand-1);
+}
+
+.property-l-wrapper.property-1-0-m .div {
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.property-l-wrapper.property-1-0-s .div {
+  font-size: 14px;
+  line-height: 18px;
+}

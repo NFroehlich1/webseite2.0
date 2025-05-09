@@ -1,0 +1,13 @@
+:root {
+    --linkit-light-blue: #52B4DC;
+    --linkit-black: #0A0A0A;
+    --linkit-blue: #2B659F;
+    --linkit-turquoise: #5EB19F;
+    --linkit-fill: #181818;
+    --linkit-red: #EA4335;
+    --linkit-grey: #EFF2FC;
+}
+
+.students {
+    background-color: var(--linkit-black);
+}

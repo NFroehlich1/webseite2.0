@@ -1,0 +1,224 @@
+/* Responsive styles for Companies page */
+
+/* Base responsive adjustments */
+.final-unternehmen .div-2 {
+  min-height: 100vh;
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 1440px;
+}
+
+/* Convert absolute positioned elements to relative positioning */
+.final-unternehmen .overlap,
+.final-unternehmen .referenzen,
+.final-unternehmen .industrieprojekte,
+.final-unternehmen .unternehmensangebot,
+.final-unternehmen .vortrge-und-events {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  left: auto;
+  top: auto;
+}
+
+/* Make flexbox containers wrap */
+.final-unternehmen .project,
+.final-unternehmen .project-2,
+.final-unternehmen .overlap-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Make images responsive */
+.final-unternehmen .grafik,
+.final-unternehmen .img,
+.final-unternehmen .IMG {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Fix icon boxes layout */
+.final-unternehmen .icon-box,
+.final-unternehmen .icon-box-2,
+.final-unternehmen .icon-box-3,
+.final-unternehmen .icon-box-4,
+.final-unternehmen .icon-box-5,
+.final-unternehmen .icon-box-6 {
+  position: relative;
+  width: 100%;
+  max-width: 259px;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Fix icon positioning */
+.final-unternehmen .icon,
+.final-unternehmen .user-wrapper,
+.final-unternehmen .icon-2 {
+  position: relative;
+  margin: 0 auto 15px;
+  left: auto;
+  top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.final-unternehmen .icon-instance-node-2,
+.final-unternehmen .icons-bx-rss {
+  position: relative !important;
+  margin: auto !important;
+  left: auto !important;
+  top: auto !important;
+}
+
+/* Fix text positioning */
+.final-unternehmen .text-wrapper-3,
+.final-unternehmen .text-wrapper-4,
+.final-unternehmen .text-wrapper-5,
+.final-unternehmen .text-wrapper-6,
+.final-unternehmen .text-wrapper-7,
+.final-unternehmen .profitieren-sie-von {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Fix heading */
+.final-unternehmen .heading {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 100%;
+  max-width: 705px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+/* Fix circular image */
+.final-unternehmen .image {
+  position: relative;
+  left: auto;
+  top: auto;
+  margin: 20px auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+/* Media queries for different screen sizes */
+@media screen and (max-width: 1200px) {
+  .final-unternehmen .project,
+  .final-unternehmen .project-2 {
+    gap: 20px;
+  }
+  
+  .final-unternehmen .grafik {
+    max-width: 350px;
+  }
+  
+  .final-unternehmen .project-info,
+  .final-unternehmen .project-info-2 {
+    max-width: 450px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .final-unternehmen .project,
+  .final-unternehmen .project-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .final-unternehmen .grafik {
+    max-width: 100%;
+  }
+  
+  .final-unternehmen .project-info,
+  .final-unternehmen .project-info-2 {
+    max-width: 100%;
+  }
+  
+  .final-unternehmen .overlap-group {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .final-unternehmen .icon-box,
+  .final-unternehmen .icon-box-2,
+  .final-unternehmen .icon-box-3,
+  .final-unternehmen .icon-box-4,
+  .final-unternehmen .icon-box-5,
+  .final-unternehmen .icon-box-6 {
+    margin: 20px auto;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .final-unternehmen .title-7,
+  .final-unternehmen .title-8 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  
+  .final-unternehmen .text-wrapper-2 {
+    font-size: 14px;
+  }
+  
+  .final-unternehmen .vortrge-und-events {
+    flex-direction: column;
+  }
+  
+  .final-unternehmen .IMG-wrapper,
+  .final-unternehmen .description-wrapper {
+    width: 100%;
+  }
+  
+  .final-unternehmen .company-benefits {
+    flex-direction: column;
+  }
+  
+  .final-unternehmen .benefit-item {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .final-unternehmen .title-7,
+  .final-unternehmen .title-8 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  
+  .final-unternehmen .btn-text-wrapper,
+  .final-unternehmen .div-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .final-unternehmen .btn-text-3 {
+    position: relative;
+    left: 0;
+    text-align: center;
+  }
+  
+  .final-unternehmen .icon-box,
+  .final-unternehmen .icon-box-2,
+  .final-unternehmen .icon-box-3,
+  .final-unternehmen .icon-box-4,
+  .final-unternehmen .icon-box-5,
+  .final-unternehmen .icon-box-6 {
+    max-width: 100%;
+  }
+}

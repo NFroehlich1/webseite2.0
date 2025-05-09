@@ -1,0 +1,59 @@
+.referenzen-reel {
+  height: 799px;
+  position: relative;
+  width: 1065px;
+}
+
+.referenzen-reel .next-btn {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 40px;
+  box-shadow: var(--shadow-s);
+  display: inline-flex;
+  left: 920px;
+  padding: 8px;
+  position: absolute;
+  top: 670px;
+}
+
+.referenzen-reel .icon-instance-node {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.referenzen-reel .prev-btn {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 40px;
+  box-shadow: var(--shadow-s);
+  display: inline-flex;
+  left: 109px;
+  padding: 8px;
+  position: absolute;
+  top: 670px;
+}
+
+.referenzen-reel .referenz-rechts {
+  height: 400px;
+  left: 810px;
+  position: absolute;
+  top: 191px;
+  width: 255px;
+}
+
+.referenzen-reel .referenz-links {
+  height: 400px;
+  left: 0;
+  position: absolute;
+  top: 191px;
+  width: 255px;
+}
+
+.referenzen-reel .referenz-mitte {
+  height: 780px;
+  left: 270px;
+  position: absolute;
+  top: 0;
+  width: 525px;
+}

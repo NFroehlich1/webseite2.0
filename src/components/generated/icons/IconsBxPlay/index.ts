@@ -1,0 +1,1 @@
+export { IconsBxPlay } from "./IconsBxPlay";

@@ -1,0 +1,23 @@
+#AngebotSection
+{
+background: #000;
+position: center;
+margin-left: auto;
+margin-right: auto;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+#Benefits
+{
+
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-top: 885px;
+width: 100%;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-left: auto;
+margin-right: auto;
+}

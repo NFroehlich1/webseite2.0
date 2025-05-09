@@ -1,0 +1,201 @@
+/* Styles for the Schulungen section */
+.final-unternehmen .schulungen-section {
+  margin: 100px auto;
+  max-width: 1069px;
+  width: 100%;
+  position: relative;
+}
+
+.final-unternehmen .schulungen-content {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.final-unternehmen .schulungen-text {
+  flex: 1;
+}
+
+.final-unternehmen .schulungen-text h2 {
+  color: #ffffff;
+  font-family: "Manrope", Helvetica;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.final-unternehmen .schulungen-text p {
+  color: #ffffff;
+  opacity: 0.7;
+  font-family: var(--body-m-font-family);
+  font-size: var(--body-m-font-size);
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.final-unternehmen .schulungen-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.final-unternehmen .schulungen-buttons button {
+  background: transparent;
+  border: 2px solid var(--linkit-hellblau);
+  color: #ffffff;
+  font-family: "Manrope", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.centered-image-container {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+  width: 100%;
+}
+
+.centered-image {
+  max-width: 80%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: fit-content;
+  transition: background-color 0.3s ease;
+}
+
+.final-unternehmen .schulungen-buttons button:hover {
+  background-color: var(--linkit-hellblau);
+}
+
+.final-unternehmen .schulungen-image {
+  flex: 1;
+}
+
+.final-unternehmen .schulungen-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Styles for the Industrieprojekte section */
+.final-unternehmen .industrieprojekte-section {
+  margin: 100px auto;
+  max-width: 1069px;
+  width: 100%;
+  position: relative;
+}
+
+.final-unternehmen .industrieprojekte-content {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.final-unternehmen .industrieprojekte-text {
+  flex: 1;
+}
+
+.final-unternehmen .industrieprojekte-text h2 {
+  color: #ffffff;
+  font-family: "Manrope", Helvetica;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.final-unternehmen .industrieprojekte-text p {
+  color: #ffffff;
+  opacity: 0.7;
+  font-family: var(--body-m-font-family);
+  font-size: var(--body-m-font-size);
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.final-unternehmen .industrieprojekte-text button {
+  background: transparent;
+  border: 2px solid var(--linkit-hellblau);
+  color: #ffffff;
+  font-family: "Manrope", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+}
+
+.final-unternehmen .industrieprojekte-text button:hover {
+  background-color: var(--linkit-hellblau);
+}
+
+.final-unternehmen .industrieprojekte-image {
+  flex: 1;
+}
+
+.final-unternehmen .industrieprojekte-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Add styles for the kontakt button in the Vorträge und Events section */
+.final-unternehmen .kontakt-button {
+  margin-top: 20px;
+}
+
+.final-unternehmen .kontakt-button button {
+  background: transparent;
+  border: 2px solid var(--linkit-hellblau);
+  color: #ffffff;
+  font-family: "Manrope", Helvetica;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: fit-content;
+  transition: background-color 0.3s ease;
+}
+
+.final-unternehmen .kontakt-button button:hover {
+  background-color: var(--linkit-hellblau);
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 992px) {
+  .final-unternehmen .schulungen-content,
+  .final-unternehmen .industrieprojekte-content {
+    flex-direction: column;
+  }
+  
+  .final-unternehmen .industrieprojekte-content {
+    flex-direction: column-reverse;
+  }
+  
+  .final-unternehmen .vortrge-und-events {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .final-unternehmen .IMG-wrapper,
+  .final-unternehmen .description-wrapper {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .final-unternehmen .schulungen-text h2,
+  .final-unternehmen .industrieprojekte-text h2 {
+    font-size: 32px;
+  }
+  
+  .final-unternehmen .schulungen-text p,
+  .final-unternehmen .industrieprojekte-text p {
+    font-size: 14px;
+  }
+}

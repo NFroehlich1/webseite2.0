@@ -1,0 +1,1 @@
+export { IconsBxEdit } from "./IconsBxEdit";

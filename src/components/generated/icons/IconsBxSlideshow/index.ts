@@ -1,0 +1,1 @@
+export { IconsBxSlideshow } from "./IconsBxSlideshow";

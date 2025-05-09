@@ -1,0 +1,468 @@
+/* Main container */
+.companies-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-family: "Manrope", Helvetica;
+  background-color: #000000;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* Hero section */
+.hero-section {
+  position: relative;
+  padding: 80px 0;
+  text-align: center;
+  margin-bottom: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url('../../resources/grafik-15.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 10, 10, 0.5);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.hero-content .subtitle {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.highlight {
+  color: var(--linkit-hellblau);
+}
+
+.benefits-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto 40px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.benefits-row {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.benefit-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+}
+
+.benefit-icon {
+  margin-bottom: 15px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.benefit-text {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.learn-more-btn {
+  background-color: var(--linkit-hellblau);
+  color: #ffffff;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 0 auto;
+  display: block;
+}
+
+.learn-more-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Common section styles */
+.section {
+  padding: 80px 0;
+  margin-bottom: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.section-content {
+  max-width: 100%;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 40px;
+}
+
+.section h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+  padding: 0 20px;
+}
+
+.section-subtitle {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 0 auto 40px;
+  max-width: 800px;
+  opacity: 0.8;
+  padding: 0 20px;
+}
+
+.section-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  opacity: 0.8;
+}
+
+/* Sections with images */
+.section-with-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.section-with-image.reverse {
+  flex-direction: row-reverse;
+}
+
+.section-with-image .section-text {
+  flex: 1;
+}
+
+.section-with-image .section-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-with-image .section-image img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0 auto;
+  display: block;
+}
+
+.transparent-image {
+  opacity: 0.8;
+  filter: brightness(1.1) contrast(0.9);
+  transition: opacity 0.3s ease;
+}
+
+.transparent-image:hover {
+  opacity: 1;
+}
+
+.analytics-image {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+  transition: filter 0.3s ease;
+}
+
+.analytics-image:hover {
+  filter: drop-shadow(0 6px 12px rgba(0, 0, 0, 0.3));
+}
+
+/* Vorträge und Events section */
+.event-types {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.event-type {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.event-type h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.event-type p {
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.7;
+  margin: 0;
+}
+
+.contact-btn {
+  display: block;
+  background: transparent;
+  border: 2px solid var(--linkit-hellblau);
+  color: #ffffff;
+  padding: 10px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-btn:hover {
+  background-color: var(--linkit-hellblau);
+}
+
+/* Angebot section */
+.offerings-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.offering-item {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+}
+
+.offering-icon {
+  margin-bottom: 15px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+.offering-item h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.offering-item p {
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: 0.7;
+  margin: 0;
+}
+
+/* Schulungen section */
+#schulungen .section-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#schulungen .section-with-image .section-image {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#schulungen .section-with-image .section-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Vorträge und Events section */
+#vortraege-events .section-content {
+  max-width: 1069px;
+  margin: 0 auto;
+}
+
+#vortraege-events .section-with-image {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+}
+
+#vortraege-events .section-with-image .section-image {
+  flex: 1;
+  max-width: 435px;
+}
+
+#vortraege-events .section-with-image .section-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+#vortraege-events .section-with-image .section-text {
+  flex: 1;
+}
+
+/* Industrieprojekte section */
+#industrieprojekte .section-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#industrieprojekte .section-with-image .section-image {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#industrieprojekte .section-with-image .section-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.outline-btn {
+  background: transparent;
+  border: 2px solid var(--linkit-hellblau);
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.outline-btn:hover {
+  background-color: var(--linkit-hellblau);
+}
+
+.contact-button-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 60px;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+/* Referenzen section */
+.referenzen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.referenzen-reel-instance {
+  margin: 0 auto;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 992px) {
+  .benefits-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .offerings-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .event-types {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-with-image,
+  .section-with-image.reverse {
+    flex-direction: column;
+  }
+  
+  .section-with-image .section-image {
+    order: -1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 32px;
+  }
+  
+  .section h2 {
+    font-size: 28px;
+  }
+  
+  .offerings-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .section-subtitle {
+    font-size: 16px;
+  }
+}

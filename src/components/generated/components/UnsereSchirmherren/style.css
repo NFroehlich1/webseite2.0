@@ -1,0 +1,283 @@
+.unsere-schirmherren {
+  height: 398px;
+  position: relative;
+  width: 1065px;
+}
+
+.unsere-schirmherren .schirmherren {
+  left: 0;
+  position: absolute;
+  top: 53px;
+  width: 1065px;
+}
+
+.unsere-schirmherren .highlight-reel {
+  height: 345px;
+  position: relative;
+  width: 347px;
+}
+
+.unsere-schirmherren .overlap-group-2 {
+  border-radius: 10px;
+  height: 345px;
+  position: relative;
+  width: 345px;
+}
+
+.unsere-schirmherren .rectangle {
+  background-color: #ffffff4c;
+  border: 2px solid;
+  border-color: var(--linkit-hellblau);
+  border-radius: 10px;
+  height: 345px;
+  left: 0;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  width: 345px;
+}
+
+.unsere-schirmherren .group {
+  height: 230px;
+  left: 58px;
+  position: absolute;
+  top: 10px;
+  width: 230px;
+}
+
+.unsere-schirmherren .title {
+  color: var(--white);
+  font-family: "Manrope", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: 20px;
+  opacity: 0.85;
+  position: absolute;
+  text-align: center;
+  top: 240px;
+  width: 297px;
+}
+
+.unsere-schirmherren .span {
+  font-family: var(--linkit-bold-white-font-family);
+  font-size: var(--linkit-bold-white-font-size);
+  font-style: var(--linkit-bold-white-font-style);
+  font-weight: var(--linkit-bold-white-font-weight);
+  letter-spacing: var(--linkit-bold-white-letter-spacing);
+  line-height: var(--linkit-bold-white-line-height);
+}
+
+.unsere-schirmherren .span-2 {
+  font-family: var(--linkit-small-font-family);
+  font-size: var(--linkit-small-font-size);
+  font-style: var(--linkit-small-font-style);
+  font-weight: var(--linkit-small-font-weight);
+  letter-spacing: var(--linkit-small-letter-spacing);
+  line-height: var(--linkit-small-line-height);
+}
+
+.unsere-schirmherren .highlight-reel-2 {
+  height: 345px;
+  margin-right: -2px;
+  position: relative;
+}
+
+.unsere-schirmherren .quote {
+  height: 345px;
+  position: absolute;
+  top: 0;
+}
+
+.unsere-schirmherren .overlap-group-3 {
+  border-radius: 10px;
+  height: 345px;
+  position: relative;
+}
+
+.unsere-schirmherren .rectangle-2 {
+  background-color: #ffffff4c;
+  border: 2px solid;
+  border-color: var(--linkit-hellblau);
+  border-radius: 10px;
+  height: 345px;
+  left: 0;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  width: 705px;
+}
+
+.unsere-schirmherren .title-2 {
+  color: var(--white);
+  font-family: var(--linkit-standard-white-font-family);
+  font-size: var(--linkit-standard-white-font-size);
+  font-style: var(--linkit-standard-white-font-style);
+  font-weight: var(--linkit-standard-white-font-weight);
+  left: 87px;
+  letter-spacing: var(--linkit-standard-white-letter-spacing);
+  line-height: var(--linkit-standard-white-line-height);
+  position: absolute;
+  text-align: center;
+  top: 21px;
+  width: 567px;
+}
+
+.unsere-schirmherren .quotes {
+  height: 72px;
+  left: 10px;
+  position: absolute;
+  top: 19px;
+  width: 72px;
+}
+
+.unsere-schirmherren .overlap {
+  border-radius: 10px;
+  height: 345px;
+  position: absolute;
+  top: 0;
+  width: 345px;
+}
+
+.unsere-schirmherren .title-3 {
+  color: var(--white);
+  font-family: "Manrope", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  left: 24px;
+  letter-spacing: 0;
+  line-height: 20px;
+  opacity: 0.85;
+  position: absolute;
+  text-align: center;
+  top: 239px;
+  width: 297px;
+}
+
+.unsere-schirmherren .overlap-group-wrapper {
+  height: 345px;
+  left: 360px;
+  position: absolute;
+  top: 0;
+  width: 707px;
+}
+
+.unsere-schirmherren .overlap-group-4 {
+  border-radius: 10px;
+  height: 345px;
+  position: relative;
+  width: 705px;
+}
+
+.unsere-schirmherren .title-4 {
+  color: var(--white);
+  font-family: var(--linkit-standard-white-font-family);
+  font-size: var(--linkit-standard-white-font-size);
+  font-style: var(--linkit-standard-white-font-style);
+  font-weight: var(--linkit-standard-white-font-weight);
+  left: 69px;
+  letter-spacing: var(--linkit-standard-white-letter-spacing);
+  line-height: var(--linkit-standard-white-line-height);
+  position: absolute;
+  text-align: center;
+  top: 93px;
+  width: 567px;
+}
+
+.unsere-schirmherren .title-5 {
+  color: var(--white);
+  font-family: var(--linkit-subheader-font-family);
+  font-size: var(--linkit-subheader-font-size);
+  font-style: var(--linkit-subheader-font-style);
+  font-weight: var(--linkit-subheader-font-weight);
+  left: 343px;
+  letter-spacing: var(--linkit-subheader-letter-spacing);
+  line-height: var(--linkit-subheader-line-height);
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  white-space: nowrap;
+  width: 380px;
+}
+
+.unsere-schirmherren .property-1-12-variant-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 15px;
+}
+
+.unsere-schirmherren .property-1-12-default {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 15px;
+}
+
+.unsere-schirmherren .property-1-12-variant-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 15px;
+}
+
+.unsere-schirmherren .property-1-12-variant-2 {
+  height: 345px;
+}
+
+.unsere-schirmherren .schirmherren.property-1-12-variant-3 .highlight-reel-2 {
+  width: 1067px;
+}
+
+.unsere-schirmherren .schirmherren.property-1-12-default .highlight-reel-2 {
+  width: 347px;
+}
+
+.unsere-schirmherren .schirmherren.property-1-12-variant-4 .highlight-reel-2 {
+  width: 1067px;
+}
+
+.unsere-schirmherren .schirmherren.property-1-12-variant-2 .highlight-reel-2 {
+  width: 1067px;
+}
+
+.unsere-schirmherren .schirmherren.property-1-12-variant-3 .quote {
+  left: 360px;
+  width: 707px;
+}
+
+.unsere-schirmherren .schirmherren.property-1-12-default .quote {
+  left: 360px;
+  width: 707px;
+}
+
+.unsere-schirmherren .schirmherren.property-1-12-variant-4 .quote {
+  left: 0;
+  width: 705px;
+}
+
+.unsere-schirmherren .schirmherren.property-1-12-variant-2 .quote {
+  left: 360px;
+  width: 707px;
+}
+
+.unsere-schirmherren .schirmherren.property-1-12-variant-3 .overlap-group-3 {
+  width: 705px;
+}
+
+.unsere-schirmherren .schirmherren.property-1-12-variant-3 .overlap {
+  left: 0;
+}
+
+.unsere-schirmherren .schirmherren.property-1-12-default .overlap {
+  left: 0;
+}
+
+.unsere-schirmherren .schirmherren.property-1-12-variant-4 .overlap {
+  left: 720px;
+}
+
+.unsere-schirmherren .schirmherren.property-1-12-variant-2 .overlap {
+  left: 0;
+}

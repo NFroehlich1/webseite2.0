@@ -1,0 +1,65 @@
+.btn {
+  align-items: center;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+}
+
+.btn .btn-text {
+  font-family: "Manrope", Helvetica;
+  font-weight: 600;
+  letter-spacing: 0;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.btn.solid {
+  background-color: var(--brandprimary);
+}
+
+.btn.l {
+  border-radius: 8px;
+  padding: 13px 32px;
+}
+
+.btn.outline {
+  border: 1px solid;
+  border-color: #6366f159;
+}
+
+.btn.m {
+  border-radius: 6px;
+  padding: 11px 28px;
+}
+
+.btn.s {
+  border-radius: 4px;
+  padding: 9px 20px;
+}
+
+.btn.solid .btn-text {
+  color: #ffffff;
+}
+
+.btn.l .btn-text {
+  font-size: 16px;
+  line-height: 25.6px;
+}
+
+.btn.outline .btn-text {
+  color: var(--brandprimary);
+}
+
+.btn.m .btn-text {
+  font-size: 14px;
+  line-height: 22.4px;
+}
+
+.btn.s .btn-text {
+  font-size: 14px;
+  line-height: 18px;
+}

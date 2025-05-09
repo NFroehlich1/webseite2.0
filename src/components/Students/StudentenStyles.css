@@ -1,0 +1,98 @@
+#root {
+  background-color: #000;
+}
+
+#TeamImageBackground {
+  background: url("Landing\ Frame.png");
+  width: 100%;
+  max-width: 1710px;
+  min-height: 885px;
+  opacity: 0.9;
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#UpperSection {
+  margin-top: -40px;
+  background-color: #000;
+}
+
+#gridSection {
+  background-color: #000;
+  padding-top: 30px;
+}
+
+#GridTitle {
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  font-family: Manrope;
+}
+
+#EventsCarousel {
+  background-color: #000;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+#EventsTitle {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 800;
+  font-family: Manrope;
+  margin-bottom: 30px;
+}
+
+#TeamTeil {
+  background-color: #000;
+  padding-top: 30px;
+}
+
+#TeamTeilTitle {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 800;
+  font-family: Manrope;
+
+  
+  @media (max-width: 768px) { 
+padding-top: 300px;
+  }
+}
+
+#Faq {
+  background-color: #000;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-top: -30px;
+}
+
+#FaqTitle {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 800;
+  font-family: Manrope;
+  margin-bottom: 30px;
+}
+
+#Testimonials {
+  background-color: #000;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-top: -30px;
+}
+
+#TestimonialsTitle {
+  text-align: center;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 800;
+  font-family: Manrope;
+}

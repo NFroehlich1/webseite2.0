@@ -1,0 +1,1 @@
+export { IconsBxConversation } from "./IconsBxConversation";

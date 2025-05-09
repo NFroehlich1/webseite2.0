@@ -1,0 +1,1 @@
+export { Schulungen } from "./Schulungen";
