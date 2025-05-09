@@ -14,7 +14,7 @@ const Footer = () => {
                 <p>linkit e.V. ist seit 2016 die erste Industrie 4.0 und Data Science Hochschulgruppe in Deutschland. </p>
                 <p>Aktueller Vorstand sind Tom Körner und Verena Hallitschke</p>
 
-                <div className="Copyright">© 2023 linkit e.V. - All rights reserved</div>
+                <div className="Copyright">© 2025 linkit e.V. - All rights reserved</div>
 
             </div>
             <div className="Footer-Links"> {/* right side */}
