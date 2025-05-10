@@ -26,14 +26,14 @@ const departments: Department[] = [
       {
         name: "Nico Fröhlich",
         position: "1. Vorsitzender",
-        image: "/img/placeholder-profile.png",
+        image: require("../../resources/team/Nico_Froehlich.jpg"),
         linkedin: "https://www.linkedin.com/in/nico-froehlich",
         email: "vorsitz@linkit.tech"
       },
       {
         name: "Patrick Schneier",
         position: "2. Vorsitzender",
-        image: "/img/placeholder-profile.png",
+        image: require("../../resources/team/Patrick_Schneider.png"),
         linkedin: "https://www.linkedin.com/in/patrick-schneier",
         email: "vorsitz@linkit.tech"
       }
@@ -46,14 +46,14 @@ const departments: Department[] = [
       {
         name: "Andreas Ott",
         position: "Ressortleiter IT",
-        image: "/img/placeholder-profile.png",
+        image: require("../../resources/team/Andreas_Ott.jpg"),
         linkedin: "https://www.linkedin.com/in/andreas-ott",
         email: "it@linkit.tech"
       },
       {
         name: "Thomas Frank",
         position: "stellv. Ressortleiter IT",
-        image: "/img/placeholder-profile.png",
+        image: require("../../resources/team/Thomas_Frank.png"),
         linkedin: "https://www.linkedin.com/in/thomas-frank",
         email: "it@linkit.tech"
       }
@@ -66,7 +66,7 @@ const departments: Department[] = [
       {
         name: "Florian Beyer",
         position: "Ressortleiter Finanzen & Recht",
-        image: "/img/placeholder-profile.png",
+        image: require("../../resources/team/Florian_Beyer.jpg"),
         linkedin: "https://www.linkedin.com/in/florian-beyer",
         email: "finanzen@linkit.tech"
       }
@@ -79,7 +79,7 @@ const departments: Department[] = [
       {
         name: "Robert Lindermann",
         position: "Ressortleiter Workshop- & Partnerakquise",
-        image: "/img/placeholder-profile.png",
+        image: require("../../resources/team/Robert_Fabian_Lindermann.png"),
         linkedin: "https://www.linkedin.com/in/robert-lindermann",
         email: "workshops@linkit.tech"
       }
@@ -92,14 +92,14 @@ const departments: Department[] = [
       {
         name: "Nikolas Braunschweiger",
         position: "Ressortleiter Marketing",
-        image: "/img/placeholder-profile.png",
+        image: require("../../resources/team/Nikolas_Braunschweiger.jpg"),
         linkedin: "https://www.linkedin.com/in/nikolas-braunschweiger",
         email: "marketing@linkit.tech"
       },
       {
         name: "Rubén González",
         position: "Stellv. Ressortleiter Marketing",
-        image: "/img/placeholder-profile.png",
+        image: require("../../resources/team/Rubén_Félix_González_Niedoba.png"),
         linkedin: "https://www.linkedin.com/in/ruben-gonzalez",
         email: "marketing@linkit.tech"
       }
@@ -112,7 +112,7 @@ const departments: Department[] = [
       {
         name: "Jonathan Roth",
         position: "Ressortleiter HR",
-        image: "/img/placeholder-profile.png",
+        image: require("../../resources/team/Jonathan_Roth.jpg"),
         linkedin: "https://www.linkedin.com/in/jonathan-roth",
         email: "hr@linkit.tech"
       }
@@ -125,14 +125,14 @@ const departments: Department[] = [
       {
         name: "Moritz Mistol",
         position: "Ressortleiter Knowledge Department",
-        image: "/img/placeholder-profile.png",
+        image: require("../../resources/team/Moritz_Mistol.jpg"),
         linkedin: "https://www.linkedin.com/in/moritz-mistol",
         email: "knowledge@linkit.tech"
       },
       {
         name: "Philipp Bergmann",
         position: "stellv. Ressortleiter Knowledge Department",
-        image: "/img/placeholder-profile.png",
+        image: require("../../resources/team/Philipp_Bergmann.jpg"),
         linkedin: "https://www.linkedin.com/in/philipp-bergmann",
         email: "knowledge@linkit.tech"
       }
