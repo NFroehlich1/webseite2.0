@@ -18,9 +18,11 @@ import divider23Image from "../../resources/divider-23.svg";
 import group6Image from "../../resources/group-48095450-6.png";
 import group7Image from "../../resources/group-48095450-7.png";
 import group8Image from "../../resources/group-48095450-8.png";
-import group9Image from "../../resources/group-48095450-9.png";
 import group10Image from "../../resources/group-48095450-10.png";
 import group11Image from "../../resources/group-48095450-11.png";
+import jivkaImage from "../../resources/Jivka_Ovtcharova.jpg";
+import michaelFeindtImage from "../../resources/Michael_Feindt.jpg";
+import gdsImage from "../../resources/GDS.jpg";
 
 export const AboutUs = (): JSX.Element => {
   const { t } = useTranslation();
@@ -204,9 +206,9 @@ export const AboutUs = (): JSX.Element => {
         </div>
         <UnsereSchirmherren
           className="unsere-schirmherren-instance"
-          group={group9Image}
-          group1={group11Image}
-          img={group10Image}
+          group={jivkaImage}
+          group1={gdsImage}
+          img={michaelFeindtImage}
           property1="default"
         />
       </div>

@@ -9,9 +9,9 @@ import { useReducer } from "react";
 import "./style.css";
 
 // Import images
-import group3Image from "../../../../resources/group-48095450-3.png";
-import group4Image from "../../../../resources/group-48095450-4.png";
-import group5Image from "../../../../resources/group-48095450-5.png";
+import jivkaImage from "../../../../resources/Jivka_Ovtcharova.jpg";
+import michaelFeindtImage from "../../../../resources/Michael_Feindt.jpg";
+import gdsImage from "../../../../resources/GDS.jpg";
 import quotes1Image from "../../../../resources/quotes-1.svg";
 import quotes2Image from "../../../../resources/quotes-2.svg";
 import quotesImage from "../../../../resources/quotes.svg";
@@ -27,9 +27,9 @@ interface Props {
 export const UnsereSchirmherren = ({
   property1,
   className,
-  group = group3Image,
-  img = group4Image,
-  group1 = group5Image,
+  group = jivkaImage,
+  img = michaelFeindtImage,
+  group1 = gdsImage,
 }: Props): JSX.Element => {
   const [state, dispatch] = useReducer(reducer, {
     property1: property1 || "default",
@@ -132,7 +132,7 @@ export const UnsereSchirmherren = ({
                   <img
                     className="group"
                     alt="Group"
-                    src={state.property1 === "variant-4" ? group5Image : group4Image}
+                    src={state.property1 === "variant-4" ? gdsImage : michaelFeindtImage}
                   />
                   <div className="title">
                     <span className="span">
@@ -171,7 +171,7 @@ export const UnsereSchirmherren = ({
 
         {state.property1 === "variant-2" && (
           <>
-            <img className="group" alt="Group" src={group3Image} />
+            <img className="group" alt="Group" src={jivkaImage} />
             <p className="title-3">
               <span className="span">
                 Prof. Dr. Dr.-Ing. Dr. h.c. Jivka Ovtcharova
