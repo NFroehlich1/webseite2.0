@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import test from './grafik2.png';
+import "./StudentenStyles.css";
+import grafik2 from "../../resources/companies/grafik2.png";
 
 // Sample testimonial data
 const testimonials = [
@@ -9,35 +10,35 @@ const testimonials = [
     text: "\"Für mich, als jemand mit Interesse für Coden & Data Science, war linkit von Anfang an die Hochschulgruppe, die die meisten inhaltlichen Berührungspunkte geboten hat. Hier konnte ich von Beginn an eine Brücke zwischen Theorie aus der Uni &  Praxisthemen aus der Wirtschaft bauen. Die Zusammenarbeit & der Austausch mit Gleichgesinnten konnte meine Studienzeit abseits von Vorlesungen nachhaltig bereichern.\"",
     name: "Fabian Wylczoch",
     title: "Vorsitzender WS 2023/24",
-    image: test, 
+    image: grafik2, 
   },
   {
     id: 2,
     text: "\" Erst spät während des Masters habe ich meine Faszination für Data Science & ML entdeckt - dann aber so richtig. Neben vielen Vorlesungen habe ich mich auch in der Freizeit nach Weiterbildungsmöglichkeiten umgeschaut & mit linkit einen Glücksgriff gelandet. In 3 Jahren beim Schulungsressort durfte ich nicht nur viel viel lernen & lachen, sondern konnte auch viele Skills für meine Promotion sammeln.\"",
     name: "Luca Deck",
     title: "Aktives Mitglied",
-    image: test, 
+    image: grafik2, 
   },
   {
     id: 3,
     text: "\" Ich wollte immer etwas neben dem Studium betreiben, dass mein technisches Wissen vertieft und von Relevanz ist für mein Informatik-Studium. Als linkit-Mitglied im Knowledge Department habe ich die Möglichkeit, zu den Vorbereitungen und Vorstellungen der technischen Schulungen beizutragen, was meine IT-Skills, sowie meine Teamarbeit voranbringt.\"",
     name: "Ola Sharfeldin",
     title: "Ressortleiterin Knowledge Department WS 2023/24",
-    image: test, 
+    image: grafik2, 
   },
   {
     id: 4,
     text: "\" Es ist beeindruckend, was linkit in nur 7 Jahren seit der Gründung geschafft hat - Wir haben inspirierende Vorträge gehört, Challenges gemeistert, in externen Projekten unser Können bewiesen, und uns mit anderen HSGs vernetzt.Mit dem Drive, den wir haben, bin ich gespannt was die Zukunft noch bereithält! \"",
     name: "Verena Hallitschke",
     title: "Vorstand 2022/23",
-    image: test, 
+    image: grafik2, 
   },
   {
     id: 5,
     text: "\" Ich bin zu linkit gekommen, um Leute zu treffen, die ähnliche Interessen haben, und mit denen man sich bei einem Bier über eine Zukunft im Bereich Data Science und alles andere unterhalten kann. Und genau das habe ich gefunden!\"",
     name: "Leo Treffinger",
     title: "Engagiertes Mitglied",
-    image: test, 
+    image: grafik2, 
   },
   // Add more testimonials as needed
 ];

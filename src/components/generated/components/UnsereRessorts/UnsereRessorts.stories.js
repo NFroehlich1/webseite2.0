@@ -17,10 +17,10 @@ export const Default = {
     className: {},
     iconBoxClassName: {},
     iconBoxClassNameOverride: {},
-    divider: "/img/divider-18.svg",
+    divider: "../../../../resources/divider-18.svg",
     dividerClassName: {},
-    img: "/img/divider-19.svg",
+    img: "../../../../resources/divider-19.svg",
     dividerClassNameOverride: {},
-    divider1: "/img/divider-20.svg",
+    divider1: "../../../../resources/divider-20.svg",
   },
 };

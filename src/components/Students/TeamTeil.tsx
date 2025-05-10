@@ -1,7 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import SchlossPhoto from './SchlossPhoto.png';
+import "./StudentenStyles.css";
+import SchlossPhoto from "../../resources/companies/SchlossPhoto.png";
+
+export {};
 
 const TeamTeilContainer = styled.div`
   position: relative;

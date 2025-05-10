@@ -20,6 +20,12 @@ even for those components in the generated folder.
 You can refer to the home (landing) page for guidance.
 */
 import ReferenceLeft from "../../resources/referenz-links-1.svg";
+import ReferenceMiddle from "../../resources/referenz-mitte-1.svg";
+import ReferenceRight from "../../resources/referenz-rechts-1.svg";
+import VortragImage from "../../resources/img-2115.png";
+import SchulungImage from "../../resources/mohammad-rahmani-cdbkmnzmd7o-unsplash-3.png";
+import IndustrieImage from "../../resources/headway-5qgiuubxkwm-unsplash-2.png";
+import GrafikImage from "../../resources/grafik-15.png";
 
 import "./style.css";
 import "./sections.css";
@@ -93,7 +99,7 @@ export const Companies = (): JSX.Element => {
               <button className="contact-btn">Kontakt</button>
             </div>
             <div className="section-image">
-              <img src="/img/img-2115.png" alt="Vorträge und Events" className="transparent-image" />
+              <img src={VortragImage} alt="Vorträge und Events" className="transparent-image" />
             </div>
           </div>
         </div>
@@ -159,11 +165,11 @@ export const Companies = (): JSX.Element => {
           <div className="section-with-image">
             <div className="section-text">
               <div className="centered-image-container">
-                <img src="../../resources/grafik-15.png" alt="" className="centered-image" />
+                <img src={GrafikImage} alt="" className="centered-image" />
               </div>
             </div>
             <div className="section-image">
-              <img src="/img/mohammad-rahmani-cdbkmnzmd7o-unsplash-3.png" alt="Schulungen - Data Science & Machine Learning" className="transparent-image" />
+              <img src={SchulungImage} alt="Schulungen - Data Science & Machine Learning" className="transparent-image" />
             </div>
           </div>
         </div>
@@ -177,7 +183,7 @@ export const Companies = (): JSX.Element => {
           </p>
           <div className="section-with-image">
             <div className="section-image">
-              <img src="/img/headway-5qgiuubxkwm-unsplash-2.png" alt="Industrieprojekte" className="transparent-image" />
+              <img src={IndustrieImage} alt="Industrieprojekte" className="transparent-image" />
             </div>
           </div>
           <div className="contact-button-container">
@@ -194,9 +200,9 @@ export const Companies = (): JSX.Element => {
               className="referenzen-reel-instance"
               property1="default"
               referenzLinks={ReferenceLeft} 
-              referenzMitte="/img/referenz-mitte-1.svg"
+              referenzMitte={ReferenceMiddle}
               referenzMitteClassName="referenzen-reel-2"
-              referenzRechts="/img/referenz-rechts-1.svg"
+              referenzRechts={ReferenceRight}
             />
           </div>
         </div>

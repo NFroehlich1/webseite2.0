@@ -15,9 +15,9 @@ export const Default = {
   args: {
     property1: "default",
     className: {},
-    referenzRechts: "/img/referenz-rechts.svg",
-    referenzLinks: "/img/referenz-links.svg",
+    referenzRechts: "../../../../resources/referenz-rechts.svg",
+    referenzLinks: "../../../../resources/referenz-links.svg",
     referenzMitteClassName: {},
-    referenzMitte: "/img/referenz-mitte.svg",
+    referenzMitte: "../../../../resources/referenz-mitte.svg",
   },
 };

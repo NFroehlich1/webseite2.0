@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import ibm from './ibm.png';
-import google from './google.png';
-import linkit from './linkit.png';
-import quantco from './quantco.png';
+import "./StudentenStyles.css";
+import ibm from "../../resources/companies/ibm.png";
+import google from "../../resources/companies/google.png";
+import linkit from "../../resources/companies/linkit.png";
+import quantco from "../../resources/companies/quantco.png";
 
 interface CarouselItem {
   image: string;

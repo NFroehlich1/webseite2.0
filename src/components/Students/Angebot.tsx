@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import GridImg from './GridImg.png'; 
-import GridImg2 from './GridImg2.png'; 
-import GridImg3 from './GridImg3.png'; 
-import GridImg4 from './GridImg4.png'; 
-import GridImg5 from './GridImg5.png'; 
-import GridImg6 from './GridImg6.png'; 
+import GridImg from '../../resources/companies/GridImg.png'; 
+import GridImg2 from '../../resources/companies/GridImg2.png'; 
+import GridImg3 from '../../resources/companies/GridImg3.png'; 
+import GridImg4 from '../../resources/companies/GridImg4.png'; 
+import GridImg5 from '../../resources/companies/GridImg5.png'; 
+import GridImg6 from '../../resources/companies/GridImg6.png'; 
 
 const GridContainer = styled.div`
   display: grid;
@@ -136,7 +136,7 @@ const Grid = () => {
         <GridImage src={GridImg5} alt="Image 5" />
         <Overlay>
           <Title>Interne Projekte</Title>
-          <Text>Darf’s noch ein bisschen mehr sein? Research-Gruppen, Projekte an Roboterarmen und vieles mehr stillen bestimmt deinen Wissensdurst</Text>
+          <Text>Darf's noch ein bisschen mehr sein? Research-Gruppen, Projekte an Roboterarmen und vieles mehr stillen bestimmt deinen Wissensdurst</Text>
         </Overlay>
         <CenteredText>Interne Projekte</CenteredText>
       </GridItemWrapper>

@@ -15,8 +15,8 @@ export const Default = {
   args: {
     property1: "variant-4",
     className: {},
-    group: "/img/group-48095450-3.png",
-    img: "/img/group-48095450-4.png",
-    group1: "/img/group-48095450-5.png",
+    group: "../../../../resources/group-48095450-3.png",
+    img: "../../../../resources/group-48095450-4.png",
+    group1: "../../../../resources/group-48095450-5.png",
   },
 };

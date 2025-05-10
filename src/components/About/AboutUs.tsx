@@ -7,6 +7,21 @@ import { User } from "../generated/icons/AboutUsPageIcons/User";
 import { useTranslation } from "react-i18next";
 import "./style.css";
 
+// Import images
+import dscImage from "../../resources/dsc-04928.png";
+import analyticsImage from "../../resources/analytics-1.svg";
+import launchImage from "../../resources/launch.svg";
+import dividersImage from "../../resources/dividers.png";
+import divider21Image from "../../resources/divider-21.svg";
+import divider22Image from "../../resources/divider-22.svg";
+import divider23Image from "../../resources/divider-23.svg";
+import group6Image from "../../resources/group-48095450-6.png";
+import group7Image from "../../resources/group-48095450-7.png";
+import group8Image from "../../resources/group-48095450-8.png";
+import group9Image from "../../resources/group-48095450-9.png";
+import group10Image from "../../resources/group-48095450-10.png";
+import group11Image from "../../resources/group-48095450-11.png";
+
 export const AboutUs = (): JSX.Element => {
   const { t } = useTranslation();
   
@@ -24,7 +39,7 @@ export const AboutUs = (): JSX.Element => {
                 </div>
               </div>
               <div className="text-wrapper-4">{t("about")}</div>
-              <img className="dsc" alt="Dsc" src="/img/dsc-04928.png" />
+              <img className="dsc" alt="Dsc" src={dscImage} />
             </div>
           </div>
           <div className="cards">
@@ -41,7 +56,7 @@ export const AboutUs = (): JSX.Element => {
           <div className="icon-box-wrapper">
             <div className="icon-box-7">
               <div className="icon">
-                <img className="img-2" alt="Analytics" src="/img/analytics-1.svg" />
+                <img className="img-2" alt="Analytics" src={analyticsImage} />
               </div>
               <div className="numbers">
                 <div className="title-6">80</div>
@@ -54,7 +69,7 @@ export const AboutUs = (): JSX.Element => {
           <div className="cards-2">
             <div className="icon-box-8">
               <div className="launch-wrapper">
-                <img className="img-2" alt="Launch" src="/img/launch.svg" />
+                <img className="img-2" alt="Launch" src={launchImage} />
               </div>
               <div className="title-wrapper">
                 <div className="title-6">5</div>
@@ -92,7 +107,7 @@ export const AboutUs = (): JSX.Element => {
           </div>
           <div className="steps">
             <div className="overlap-3">
-              <img className="dividers" alt="Dividers" src="/img/dividers.png" />
+              <img className="dividers" alt="Dividers" src={dividersImage} />
               <div className="step">
                 <div className="overlap-group-6">
                   <div className="text-wrapper-6">2</div>
@@ -114,13 +129,13 @@ export const AboutUs = (): JSX.Element => {
         <div className="text-wrapper-7">{t("network", "Unser Netzwerk")}</div>
         <UnsereRessorts
           className="unsere-ressorts-instance"
-          divider="/img/divider-21.svg"
-          divider1="/img/divider-23.svg"
+          divider={divider21Image}
+          divider1={divider23Image}
           dividerClassName="unsere-ressorts-3"
           dividerClassNameOverride="unsere-ressorts-4"
           iconBoxClassName="design-component-instance-node"
           iconBoxClassNameOverride="unsere-ressorts-2"
-          img="/img/divider-22.svg"
+          img={divider22Image}
           property1="default"
         />
         <div className="unsere-schirmherren-2">
@@ -129,7 +144,7 @@ export const AboutUs = (): JSX.Element => {
             <div className="highlight-reel-3">
               <div className="overlap-group-7">
                 <div className="rectangle-3" />
-                <img className="group-3" alt="Group" src="/img/group-48095450-6.png" />
+                <img className="group-3" alt="Group" src={group6Image} />
                 <p className="title-12">
                   <span className="text-wrapper-8">
                     Paul Liepe
@@ -146,7 +161,7 @@ export const AboutUs = (): JSX.Element => {
             <div className="highlight-reel-3">
               <div className="overlap-group-7">
                 <div className="rectangle-3" />
-                <img className="group-3" alt="Group" src="/img/group-48095450-7.png" />
+                <img className="group-3" alt="Group" src={group7Image} />
                 <p className="title-12">
                   <span className="text-wrapper-8">
                     Henri Felsenstein
@@ -163,7 +178,7 @@ export const AboutUs = (): JSX.Element => {
             <div className="highlight-reel-3">
               <div className="overlap-group-7">
                 <div className="rectangle-3" />
-                <img className="group-3" alt="Group" src="/img/group-48095450-8.png" />
+                <img className="group-3" alt="Group" src={group8Image} />
                 <p className="title-12">
                   <span className="text-wrapper-8">
                     Patrick Schmid
@@ -189,9 +204,9 @@ export const AboutUs = (): JSX.Element => {
         </div>
         <UnsereSchirmherren
           className="unsere-schirmherren-instance"
-          group="/img/group-48095450-9.png"
-          group1="/img/group-48095450-11.png"
-          img="/img/group-48095450-10.png"
+          group={group9Image}
+          group1={group11Image}
+          img={group10Image}
           property1="default"
         />
       </div>

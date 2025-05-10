@@ -3,7 +3,7 @@
 }
 
 #TeamImageBackground {
-  background: url("Landing\ Frame.png");
+  background: url("../../resources/companies/Landing Frame.png");
   width: 100%;
   max-width: 1710px;
   min-height: 885px;
@@ -95,4 +95,14 @@ padding-top: 300px;
   font-size: 36px;
   font-weight: 800;
   font-family: Manrope;
+}
+
+.landing-section {
+    background-image: url('../../resources/companies/Landing Frame.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -12,6 +12,13 @@ import { IconsBxInfinite } from "../../icons/IconsBxInfinite";
 import { IconsBxSlideshow } from "../../icons/IconsBxSlideshow";
 import "./style.css";
 
+// Import images
+import vector2Image from "../../../../resources/vector-2.svg";
+import vector3Image from "../../../../resources/vector-3.svg";
+import vector4Image from "../../../../resources/vector-4.svg";
+import vector5Image from "../../../../resources/vector-5.svg";
+import benjaminbarthSick1Image from "../../../../resources/benjaminbarth-sick-1.png";
+import benjaminbarthSick2Image from "../../../../resources/benjaminbarth-sick-1-2.png";
 
 /*Bilder werden nicht erkannt  "../../../../../static/img"
 Test Images in: "../../img" */
@@ -40,17 +47,17 @@ export const Schulungen = ({ property1, className, btnShadowClassName }: Props):
               alt="Vector"
               src={
                 property1 === "variant-3"
-                  ? "img/vector-4.svg"
+                  ? vector4Image
                   : property1 === "default"
-                  ? "img/vector-3.svg"
-                  : "img/vector-2.svg"
+                  ? vector3Image
+                  : vector2Image
               }
             />
             <div className="title-3">Unser Schulungsangebot</div>
             <img
               className="vector"
               alt="Vector"
-              src={property1 === "variant-3" ? "/img/vector-5.svg" : "/img/vector-3.svg"}
+              src={property1 === "variant-3" ? vector5Image : vector3Image}
             />
           </div>
           <div className={`btn-shadow ${property1 === "default" ? btnShadowClassName : undefined}`}>
@@ -61,7 +68,7 @@ export const Schulungen = ({ property1, className, btnShadowClassName }: Props):
       <img
         className="benjaminbarth-SICK"
         alt="Benjaminbarth SICK"
-        src={property1 === "default" ? "/img/benjaminbarth-sick-1.png" : "/img/benjaminbarth-sick-1-2.png"}
+        src={property1 === "default" ? benjaminbarthSick1Image : benjaminbarthSick2Image}
       />
       {property1 === "variant-2" && (
         <div className="inhalte-der-schulung">

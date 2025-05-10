@@ -8,6 +8,14 @@ import React from "react";
 import { useReducer } from "react";
 import "./style.css";
 
+// Import images
+import group3Image from "../../../../resources/group-48095450-3.png";
+import group4Image from "../../../../resources/group-48095450-4.png";
+import group5Image from "../../../../resources/group-48095450-5.png";
+import quotes1Image from "../../../../resources/quotes-1.svg";
+import quotes2Image from "../../../../resources/quotes-2.svg";
+import quotesImage from "../../../../resources/quotes.svg";
+
 interface Props {
   property1: "variant-4" | "variant-2" | "variant-3" | "default";
   className: any;
@@ -19,9 +27,9 @@ interface Props {
 export const UnsereSchirmherren = ({
   property1,
   className,
-  group = "/img/group-48095450-3.png",
-  img = "/img/group-48095450-4.png",
-  group1 = "/img/group-48095450-5.png",
+  group = group3Image,
+  img = group4Image,
+  group1 = group5Image,
 }: Props): JSX.Element => {
   const [state, dispatch] = useReducer(reducer, {
     property1: property1 || "default",
@@ -110,7 +118,7 @@ export const UnsereSchirmherren = ({
                     <img
                       className="quotes"
                       alt="Quotes"
-                      src={state.property1 === "variant-3" ? "/img/quotes-1.svg" : "/img/quotes-2.svg"}
+                      src={state.property1 === "variant-3" ? quotes1Image : quotes2Image}
                     />
                   </div>
                 </div>
@@ -124,7 +132,7 @@ export const UnsereSchirmherren = ({
                   <img
                     className="group"
                     alt="Group"
-                    src={state.property1 === "variant-4" ? "/img/group-48095450-5.png" : "/img/group-48095450-4.png"}
+                    src={state.property1 === "variant-4" ? group5Image : group4Image}
                   />
                   <div className="title">
                     <span className="span">
@@ -163,7 +171,7 @@ export const UnsereSchirmherren = ({
 
         {state.property1 === "variant-2" && (
           <>
-            <img className="group" alt="Group" src="/img/group-48095450-3.png" />
+            <img className="group" alt="Group" src={group3Image} />
             <p className="title-3">
               <span className="span">
                 Prof. Dr. Dr.-Ing. Dr. h.c. Jivka Ovtcharova
@@ -186,7 +194,7 @@ export const UnsereSchirmherren = ({
                   von linkit. Als Schirmherrin unterstütze ich diese einzigartige studentische Initiative voll und ganz
                   und wünsche weiterhin viel Begeisterung und Erfolg bei der Mitgestaltung der Arbeitswelt der Zukunft.
                 </p>
-                <img className="quotes" alt="Quotes" src="/img/quotes.svg" />
+                <img className="quotes" alt="Quotes" src={quotesImage} />
               </div>
             </div>
           </>
