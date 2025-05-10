@@ -123,18 +123,11 @@ const departments: Department[] = [
     description: "Das Knowledge Department ist für die Weiterbildung von linkit-Mitgliedern verantwortlich, damit sie sich zu Data Science-Experten entwickeln. Zudem wird durch die interne und externe Verwendung der Schulungsinhalte das Vermitteln von Wissen (\"Lernen durch Lehren\") als zentrales Weiterbildungselement gestärkt.",
     members: [
       {
-        name: "Moritz Mistol",
+        name: "Erik Schulze",
         position: "Ressortleiter Knowledge Department",
-        image: require("../../resources/team/Moritz_Mistol.jpg"),
-        linkedin: "https://www.linkedin.com/in/moritz-mistol",
-        email: "knowledge@linkit.tech"
-      },
-      {
-        name: "Philipp Bergmann",
-        position: "stellv. Ressortleiter Knowledge Department",
-        image: require("../../resources/team/Philipp_Bergmann.jpg"),
-        linkedin: "https://www.linkedin.com/in/philipp-bergmann",
-        email: "knowledge@linkit.tech"
+        image: require("../../resources/team/Erik_Schulze.png"),
+        linkedin: "https://www.linkedin.com/in/erik-schulze-830056253/",
+        email: "schulungen@linkit.tech"
       }
     ]
   }
